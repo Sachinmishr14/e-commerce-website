@@ -45,29 +45,23 @@ This is a full-stack e-commerce web application built as part of an internship a
 
 ### Backend Setup
 1. Navigate to the backend folder:
-   `bash
    cd ecommerce-backend
 
 ### Install Dependencies:
-   `bash
    npm install
 
 ### Start the Server:
-   `bash
    node server.js
 
 ### Frontend Setup:
 Navigate to the frontend folder:
-   `bash
    cd ecommerce-frontend
    
 ### Install dependencies:
-   `bash
    npm install
    
 ### Start the application:
-   `bash
-  npm start
+   npm start
   
 App will run on http://localhost:3000.
 
