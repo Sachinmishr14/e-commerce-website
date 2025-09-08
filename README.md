@@ -44,8 +44,8 @@ This is a full-stack e-commerce web application built as part of an internship a
 ## Installation
 
 ### Backend Setup
-1. Navigate to the backend folder:
-   cd ecommerce-backend
+Navigate to the backend folder:
+ ecommerce-backend
 
 ### Install Dependencies:
    npm install
