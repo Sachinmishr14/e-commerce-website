@@ -3,8 +3,6 @@
 ## Overview
 This is a full-stack e-commerce web application built as part of an internship assignment. It includes a backend for managing users, products, and carts, and a frontend for a user-friendly interface. The project showcases skills in Node.js, React, MongoDB, and modern web development practices.
 
-- Author: [Your Name] (https://github.com/your-username)
-- Created On: September 08, 2025
 - Technologies Used:
   - Backend: Node.js, Express, MongoDB (via Mongoose), JSON Web Token (JWT), bcryptjs, cors, dotenv
   - Frontend: React.js, Axios, React Router, Bootstrap, JWT-decode
