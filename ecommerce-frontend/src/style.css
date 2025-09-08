@@ -1,0 +1,114 @@
+/* General Page Styling */
+body {
+  background-color: #f0e8f5; /* Light purple background for a soft look */
+  font-family: 'Arial', sans-serif;
+  color: #2c2c2c; /* Dark gray text for readability */
+  padding-top: 20px;
+}
+
+/* Headings Styling */
+h2 {
+  color: #ff6f61; /* Coral red for headings, eye-catching */
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+}
+
+/* Card Styling (for Signup, Login, etc.) */
+.card {
+  border-radius: 15px; /* More rounded corners */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Stronger shadow */
+  padding: 25px;
+  background-color: #ffffff; /* White card with contrast */
+  transition: transform 0.2s; /* Smooth hover effect */
+}
+
+.card:hover {
+  transform: scale(1.02); /* Slightly enlarges card on hover */
+}
+
+/* Form Inputs Styling */
+.form-control {
+  border-radius: 8px; /* Rounded input fields */
+  border-color: #ff6f61; /* Coral border to match headings */
+  margin-bottom: 15px;
+  padding: 10px;
+}
+
+.form-control:focus {
+  border-color: #ff9f89; /* Lighter coral on focus */
+  box-shadow: 0 0 5px rgba(255, 111, 97, 0.5); /* Glow effect */
+}
+
+/* Button Styling */
+.btn {
+  border-radius: 8px; /* Rounded buttons */
+  padding: 10px 20px;
+  font-weight: bold;
+  transition: background-color 0.3s; /* Smooth color change */
+}
+
+.btn-primary {
+  background-color: #ff6f61; /* Coral button */
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #ff9f89; /* Lighter coral on hover */
+}
+
+.btn-secondary {
+  background-color: #6a4a8a; /* Purple for secondary buttons */
+  border: none;
+}
+
+.btn-secondary:hover {
+  background-color: #8a6bb1; /* Lighter purple on hover */
+}
+
+/* Listing Page Styling */
+.list-group-item {
+  background-color: #f8f1f9; /* Light purple background for items */
+  border: 1px solid #e0d0e6; /* Soft border */
+  margin-bottom: 10px;
+  border-radius: 8px;
+  transition: background-color 0.3s;
+}
+
+.list-group-item:hover {
+  background-color: #e8d8ef; /* Lighter on hover */
+}
+
+.btn-success {
+  background-color: #28a745; /* Green for add to cart */
+  border: none;
+}
+
+.btn-success:hover {
+  background-color: #34ce57; /* Lighter green */
+}
+
+.btn-danger {
+  background-color: #dc3545; /* Red for remove */
+  border: none;
+}
+
+.btn-danger:hover {
+  background-color: #e4606d; /* Lighter red */
+}
+
+/* Links Styling */
+a {
+  color: #6a4a8a; /* Purple links */
+}
+
+a:hover {
+  color: #8a6bb1; /* Lighter purple on hover */
+  text-decoration: none; /* No underline on hover */
+}
+
+/* Centering Content */
+.container {
+  max-width: 800px; /* Fixed width for better layout */
+}
